@@ -22,7 +22,7 @@ jobs:
           python-version: "3.11"
 
       - name: تثبيت المكتبات
-        run: pip install pyTelegramBotAPI
+        run: pip install pyTelegramBotAPI gTTS
 
       - name: تشغيل البوت
         env:
